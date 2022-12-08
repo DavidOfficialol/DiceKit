@@ -8,11 +8,15 @@ let package = Package(
             targets: ["DiceKit"]
         )
     ],
-    targets: (
+    targets: [
         .target(
             name: "DiceKit",
             path: "DiceKit"
-        )
-    )
+        ),
+        .testTarget(
+        name: "DiceKitTest",
+        dependencies: ["DiceKit"]
+        ),
+    ]
 )
 
