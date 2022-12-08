@@ -1,2 +1,4 @@
 # DiceKit
-this is a test
+DiceKit make a die roll
+## Usage
+
